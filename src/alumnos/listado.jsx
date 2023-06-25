@@ -34,8 +34,8 @@ function ListadoAlumnos({ match }) {
                       <tr key={alumno.id}>
                             <td>{alumno.id}</td>
                             <td>{alumno.nombre}</td>
-                        <td>{alumno.apellidos}</td>
-                        <td>{alumno.correo}</td>
+                            <td>{alumno.apellidos}</td>
+                            <td>{alumno.correo}</td>
                             <td>{alumno.edad}</td>
                         </tr>
                     )}
